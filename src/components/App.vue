@@ -1,28 +1,19 @@
 <template>
   <div class="app">
-    <h1>Hello Vue.js!</h1>
-    <sub-component message="My Counter for Vue.js with Babel"></sub-component>
+    <h1>{{ message }}</h1>
   </div>
 </template>
 
 <script>
-  import SubComponent from "./SubComponent.vue";
-  export default {
-    name: 'app',
-    components: {
-      SubComponent
-    }
-  };
+module.exports = {
+  data: function() {
+    return {
+      message: "HelloWorld"
+    };
+  }
+};
+var test = "test";
 </script>
 
 <style scoped>
-
-  h1 {
-    font-weight: normal;
-  }
-
-  .app {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-  }
 </style>
