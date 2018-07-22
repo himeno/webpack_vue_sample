@@ -115,7 +115,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(true);\n// imports\n\n\n// module\nexports.push([module.i, \"body h1 {\\n  color: red; }\\n\", \"\", {\"version\":3,\"sources\":[\"/Users/himeno/Projects/20180722_vuetest/src/src/style.scss\"],\"names\":[],\"mappings\":\"AAAA;EAEQ,WAAU,EACb\",\"file\":\"style.scss\",\"sourcesContent\":[\"body {\\n    h1 {\\n        color: red;\\n    }\\n}\"],\"sourceRoot\":\"\"}]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader??ref--1-1!./node_modules/sass-loader/lib/loader.js??ref--1-2");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(true);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n  background-image: url(\\\"./thumb.png\\\"); }\\n  body h1 {\\n    color: red; }\\n\", \"\", {\"version\":3,\"sources\":[\"/Users/himeno/Projects/20180722_vue_bootstrap_sass/src/src/style.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,qCAAoC,EAIrC;EALD;IAGI,WAAU,EACX\",\"file\":\"style.scss\",\"sourcesContent\":[\"body {\\n  background-image: url(\\\"./thumb.png\\\");\\n  h1 {\\n    color: red;\\n  }\\n}\\n\"],\"sourceRoot\":\"\"}]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader??ref--1-1!./node_modules/sass-loader/lib/loader.js??ref--1-2");
 
 /***/ }),
 

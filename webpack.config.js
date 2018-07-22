@@ -8,7 +8,6 @@ module.exports = {
   // モード値を production に設定すると最適化された状態で、
   // development に設定するとソースマップ有効でJSファイルが出力される
   mode: MODE,
-
   module: {
     rules: [{
         test: /\.css$/,
@@ -44,7 +43,7 @@ module.exports = {
               // ソースマップの利用有無
               sourceMap: enabledSourceMap,
             }
-          }
+          },
         ],
       },
       {
@@ -65,6 +64,12 @@ module.exports = {
             }]
           ]
         }
+      },
+      {
+        // 対象となるファイルの拡張子
+        test: /\.(gif|png|jpg|eot|wof|woff|woff2|ttf|svg)$/,
+        // 画像をBase64として取り込む
+        loader: 'url-loader'
       },
     ]
   },
